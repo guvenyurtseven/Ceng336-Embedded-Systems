@@ -49,9 +49,9 @@ typedef unsigned char uint8_t;
 // ======================================================//
 //                     GLOBALS  		         //
 //						         //
-//    const unsigned char Güven Yurtseven, 2449080       //
+//    const unsigned char GÃ¼ven Yurtseven, 2449080       //
 //    const unsigned char Ersin Sert, 2448819            //
-//    const unsigned char Mehmet Özgür Göksu, 2310043    //
+//    const unsigned char Mehmet Ã–zgÃ¼r GÃ¶ksu, 2310043    //
 //						         //
 // ======================================================//
 
@@ -237,7 +237,7 @@ void HandleInterrupt1()
    {
        INT0IF = 0;
        
-       if(bottom_index == hippo_size) // reset ?art? kontrolü
+       if(bottom_index == hippo_size) // reset ?art? kontrolÃ¼
        {
            if(hippo_size < 5)   // reset olmas? gerekiyorsa hard reset mi soft reset mi
            {
